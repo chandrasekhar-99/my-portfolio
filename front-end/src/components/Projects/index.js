@@ -1,7 +1,9 @@
 import './index.css'
+import { Element } from 'react-scroll'
 
 const Projects = () => {
   return(
+    <Element name="projects" className="projects-section">
     <div className='projects-container'>
       <section id="projects" className="min-h-screen bg-yellow-100 p-10">
           <h2 className="text-3xl font-bold mb-4">My Projects</h2>
@@ -12,6 +14,7 @@ const Projects = () => {
           </ul>
         </section>
     </div>
+    </Element>
   )
 }
 
