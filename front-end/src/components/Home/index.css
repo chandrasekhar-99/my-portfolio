@@ -3,5 +3,35 @@
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  height: 100vh;
+  min-height: 100vh;
+  background-image: url(../../assets/jeremy-bishop-G9i_plbfDgk-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding-top: 100px;
+}
+
+/* .nav-home-container {
+  background-image: url(../../assets/jeremy-bishop-G9i_plbfDgk-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+} */
+
+.home-heading{
+  color: #ffffff;
+  font-size: 2.5rem;
+}
+
+.home-description{
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.navbar-position {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
