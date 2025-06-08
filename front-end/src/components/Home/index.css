@@ -3,31 +3,60 @@
   flex-direction: column;
   align-items: center;
   padding: 20px;
+  padding-top: 100px;
   min-height: 100vh;
+  position: relative;
   background-image: url(../../assets/jeremy-bishop-G9i_plbfDgk-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  position: relative;
-  padding-top: 100px;
 }
 
-/* .nav-home-container {
-  background-image: url(../../assets/jeremy-bishop-G9i_plbfDgk-unsplash.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+
+/* .home-heading{
+  color: #ffffff;
+  font-size: 3.5rem;
+  margin: 10px 0px 10px 0px;
+  line-height: 1.2;
 } */
 
-.home-heading{
-  color: #ffffff;
-  font-size: 2.5rem;
+.home-heading {
+  font-size: 3.5rem;
+  margin: 10px 0px 10px 0px;
+  line-height: 1.2;
+  font-weight: bold;
+  background: linear-gradient(
+    270deg,
+    #00ffc3,
+    #7f00ff,
+    #00bfff,
+    #39ff14,
+    #ff00ff
+  );
+  background-size: 1000% 1000%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: heading-animation 30s ease-in-out infinite;
+}
+
+@keyframes heading-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .home-description{
   color: #ffffff;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-top: 10px;
+  margin: 6px 0;
+  line-height: 1.4;
 }
 
 .navbar-position {
@@ -35,3 +64,49 @@
   top: 0;
   z-index: 1000;
 }
+
+
+.home-icons{
+  color: #ffffff;
+  font-size: 38px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.home-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.span-highlight{
+  color: yellowgreen;
+  font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+  .home-heading {
+    font-size: 2.5rem;
+  }
+
+  .home-description {
+    font-size: 1.2rem;
+  }
+
+  .home-icons {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+
+  .home-section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+}
+
+
+
