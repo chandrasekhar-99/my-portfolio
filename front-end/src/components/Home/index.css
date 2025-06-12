@@ -22,10 +22,20 @@
 
 .home-description{
   color: #ffffff;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-top: 10px;
   margin: 6px 0;
   line-height: 1.4;
+}
+
+.home-description-2{
+  color: #ffffff;
+  font-size: 1.3rem;
+  margin-top: 10px;
+  margin: 6px 0;
+  max-width: 600px;
+  text-align: left;
+  line-height: 1.6;
 }
 
 .navbar-position {
@@ -99,6 +109,10 @@
     color: #ffffff;
     font-size: 52px;
     margin-bottom: 70px;
+  }
+
+  .home-scroll-icon:hover {
+    transform: scale(1.0);
   }
 }
 
