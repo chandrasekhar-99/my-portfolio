@@ -25,8 +25,8 @@ const renderDropdownMenu = () => {
       {/* Dropdown Menu */}
       {isOpen && (
         <div className="dropdown-menu">
-          <Link to="home" spy={true} offset={-90} smooth={true} duration={600} className="menu-item">Home</Link>
           <Link to="about" spy={true} offset={-90} smooth={true} duration={600} className="menu-item">About</Link>
+          <Link to="skills" spy={true} offset={-90} smooth={true} duration={600} className="menu-item">Skills</Link>
           <Link to="projects" spy={true} offset={-90} smooth={true} duration={600} className="menu-item">Projects</Link>
         </div>
       )}
@@ -39,8 +39,8 @@ const renderDropdownMenu = () => {
       <div className='navbar-container'>
         <Link to="home" spy={true} offset={-90} smooth={true} duration={600} className='nav-logo'>Chandu</Link>
         <ul className='nav-links-container'>
-          <li><Link to="home" spy={true} offset={-90} smooth={true} duration={600} className="nav-list-items">Home</Link></li>
           <li><Link to="about" spy={true} offset={-90} smooth={true} duration={600} className="nav-list-items">About</Link></li>
+          <li><Link to="skills" spy={true} offset={-90} smooth={true} duration={600} className="nav-list-items">Skills</Link></li>
           <li><Link to="projects" spy={true} offset={-90} smooth={true} duration={600} className="nav-list-items">Projects</Link></li>
         </ul>
         {renderDropdownMenu()}
