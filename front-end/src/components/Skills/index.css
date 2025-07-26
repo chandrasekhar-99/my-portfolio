@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
   color: #ffffff;
   background-color: #000000;
   height: 100vh;
@@ -64,9 +63,9 @@
 
 .skill-name:hover {
   color: #00ffff;
-  text-decoration: underline;
 }
-@media screen and (max-width: 480px) {
+
+@media (max-width: 768px) {
   .skill-card {
     width: 100px;
     padding: 1rem 0.5rem;
@@ -82,20 +81,5 @@
 
   .skills-title {
     font-size: 2rem;
-  }
-}
-
-
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  .skill-card {
-    width: 120px;
-  }
-
-  .skill-icon {
-    font-size: 2.2rem;
-  }
-
-  .skill-name {
-    font-size: 0.95rem;
   }
 }
