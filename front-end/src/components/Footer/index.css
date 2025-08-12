@@ -1,0 +1,149 @@
+.footer {
+  background-color: black;
+  color: #ccc;
+  padding: 20px 0;
+  border-top: 2px solid #444;
+}
+
+/* Top divider line */
+.footer-top-line {
+  height: 2px;
+  background-color: #444;
+  max-width: 900px;
+  margin: 0 auto 20px;
+  border-radius: 2px;
+}
+
+.footer-content {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+  padding: 0 15px;
+}
+
+.footer-info h2 {
+  color: white;
+  margin: 0;
+}
+
+.footer-info p {
+  margin: 0;
+  font-size: 14px;
+  color: #999;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 0;
+}
+
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: white;
+}
+
+.footer-socials {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+}
+
+.footer-socials a {
+  color: #ccc;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.footer-socials a:hover {
+  color: white;
+}
+
+.footer-bottom {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #777;
+}
+
+.contact-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.contact-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* ==================== RESPONSIVE STYLES ==================== */
+
+/* Tablet screens */
+@media (min-width: 601px) and (max-width: 900px) {
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .footer-info {
+    flex: 1 1 100%;
+  }
+  .footer-links,
+  .footer-socials {
+    justify-content: flex-start;
+  }
+}
+
+/* Desktop screens */
+@media (min-width: 901px) {
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+  }
+}
+
+/* Small mobile screens */
+@media (max-width: 600px) {
+  .footer-info h2 {
+    font-size: 18px;
+  }
+  .footer-info p {
+    font-size: 13px;
+  }
+  .footer-links {
+    gap: 10px;
+    font-size: 14px;
+  }
+  .footer-socials a {
+    font-size: 18px;
+  }
+  .contact-btn {
+    width: 100%;
+    justify-content: center;
+    padding: 12px;
+  }
+}

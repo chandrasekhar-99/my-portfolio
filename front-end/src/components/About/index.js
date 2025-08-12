@@ -2,6 +2,7 @@ import './index.css'
 import Navbar from '../Navbar'
 import Skills from '../Skills'
 import Projects from '../Projects'
+import Footer from '../Footer'
 import { Element, Link } from "react-scroll";
 import { FaGithub, FaLinkedin, FaExternalLinkAlt } from "react-icons/fa";
 import { MdKeyboardArrowDown } from "react-icons/md";
@@ -46,6 +47,7 @@ const About = () => {
         </Element>
       <Skills/>
       <Projects/>
+      <Footer/>
     </>
   )
 }

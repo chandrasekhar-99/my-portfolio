@@ -1,12 +1,12 @@
 const projectsData = [
   {
     id: 1,
-    title: "Intelligent Valet System",
-    description: "Smart valet management system with entry/exit gate prediction, dashboard, and MongoDB integration.",
-    image: "/project-thumbnails/valet.png",
-    tech: ["React", "Node.js", "MongoDB", "Express.js"],
-    demoLink: "https://valet-demo.vercel.app",
-    githubLink: "https://github.com/chandrasekhar-99/valet-system"
+    title: "Plantify",
+    description: "Plantify is a modern plant e-commerce platfom showcasing a curated list of indoor plants.",
+    image: "/project-thumbnails/plantify.png",
+    tech: ["Javascript","React", "Node.js","Express.js"],
+    demoLink: "https://e-com-plants.vercel.app/",
+    githubLink: "https://github.com/chandrasekhar-99/e-com-plants"
   },
   {
     id: 2,

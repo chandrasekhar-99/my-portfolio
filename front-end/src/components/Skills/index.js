@@ -4,8 +4,10 @@ import {
   FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap,
   FaNodeJs, FaPython, FaGithub
 } from 'react-icons/fa';
-import { SiExpress, SiMongodb, SiPostman, SiSqlite, SiFramer, SiApachenetbeanside } from 'react-icons/si';
+import { SiExpress, SiMongodb, SiPostman, SiSqlite, SiFramer, SiApachenetbeanside, SiVercel, SiFigma } from 'react-icons/si';
 import { motion } from 'framer-motion';
+
+
 
 const skillsList = [
   { name: 'HTML5', icon: <FaHtml5 color="#E34F26" /> },
@@ -19,10 +21,14 @@ const skillsList = [
   { name: 'MongoDB', icon: <SiMongodb color="#47A248" /> },
   { name: 'SQLite', icon: <SiSqlite color="#003B57" /> },
   { name: 'Git & GitHub', icon: <FaGithub color="#F1502F" /> },
-  { name: 'RESTful APIs', icon: <SiApachenetbeanside color="#FF6C37" /> }, // or find a better icon
+  { name: 'RESTful APIs', icon: <SiApachenetbeanside color="#FF6C37" /> }, 
   { name: 'Postman', icon: <SiPostman color="#FF6C37" /> },
   { name: 'Framer Motion', icon: <SiFramer color="#0055FF" /> },
+  { name: 'Vercel', icon: <SiVercel color="#000000" /> },
+  { name: 'Figma', icon: <SiFigma color="#F24E1E" /> }
 ];
+
+
 
 
 const Skills = () => {
